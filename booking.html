@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link  rel="stylesheet" href="style.css">
+  <title>Bookings</title>
+</head>
+<body>
+    <!-- Navigation bar that scrolls down to sections on page-->
+    <div class="container">
+      <nav role="navigation" aria-label="main menu" class="d-flex justify-content-between">
+        <!--Logo-->
+        <a href="index.html">
+          <img src="/images/Techno.png" alt="Techno Champs Tours Logo" class="logo">
+        </a>
+        
+        <ul>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">OUR SERVICES</a>
+            <div class="dropdown-content">
+              <a href="#">ACCOMODATION</a>
+              <a href="#">ENTERTAINMENT</a>
+              <a href="#">LANDMARKS</a>
+              <a href="#">FOOD</a>
+              <a href="#">TRANSPORT</a>
+            </div>
+          </li>
+          <li><a href="places.html">PLACES TO VISIT</a></li> 
+          <li><a href="booking.html">BOOKING</a></li>
+          <li><a href="contacts.html">CONTACT US</a></li>  
+        </ul>
+      </nav>
+    </div>
+
+<!-- End of Nav bar-->
+    <div class="content">
+      <div class="content-form">
+        <form action="" method="post">
+            <h1>Bookings</h1>
+            <h4><i>Book your trip with Techno Champs Tours<br>Discover the world with us</i></h4>
+            <div class="form"> 
+      
+                    <label for="fname">First Name: </label>
+                    <input type="text" id="fname" placeholder="Enter your name.." required>
+                  
+                    <label for="lname">Last Name: </label>
+                    <input type="text" id="lname" placeholder="Enter your last name.." required><br>
+                 
+                    <label for="email">Email address: </label>
+                    <input type="email" id="email" required placeholder="example@gmail.com">
+                  
+                    <label for="phone">Cellphone Number: </label>
+                    <input type="tel" id="phone" placeholder="123-456-7890" required><br>
+                 
+                    <label for="ethinicity">Ethinicity</label><br>
+                    <input type="radio" id="race1" name="race1">
+                    <label for="race1"> White</label>
+                    <input type="radio" id="race2" name="race2">
+                    <label for="race2"> Black</label>
+                    <input type="radio" id="race3" name="race3">
+                    <label for="race3"> Coloured</label><br>
+                    
+                    <label for="number">Number of people</label>
+                    <select id="number" required>
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                    <option value="five">5</option>
+                    </select>
+                  
+                    <label for="place">Destination</label>
+                    <select id="place" name="place" required>
+                    <option value="suncity">Sun City</option>
+                    <option value="shaka">uShaka</option>
+                    <option value="table">Table Mountain</option>
+                    <option value="draken">Drankensburg</option>
+                    <option value="vna">V&A Waterfront</option>
+                    </select>
+                  
+                    <label for="date">Arrival date:</label>
+                    <input type="date" id="date" name="Date" required>
+              
+                    <label for="date">Depature date:</label>
+                    <input type="date" id="date" name="Date" required>
+                 
+                    <label for="comment"> Leave a message:</label><br>
+                    <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+                  
+                
+                
+            
+            <div class="button-sub">
+                    <button type="submit">Submit</button>
+                    
+            </div>
+            <div class="button-res">
+
+              <button type="reset">Reset</button>
+            </div>
+            </div>
+        </form> 
+      </div>  
+    </div>
+
+    <div class="footer">
+      <footer><small> <p>&copy; 2024 Techno Champs Tours</p></small></footer>
+      </div>
+  
+</body>
+</html>
